@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-image: url("https://insideretail.com.au/wp-content/uploads/2021/10/spenda-business-finance3.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+    .container{
+        text-align: center;
+        margin-top: 10%;
+
+    }
+</style>
+
+<body>
+    <form method="post">
+
+   
+    <div class="container">
+    <h>CREDIT</h>
+    <p>
+    <input type="text" name="amount" placeholder="Enter Amount">
+    </p>
+    <button>Sumbit</button>
+</div>
+</form>
+<a href="{{url_for('userpanel',account_no=an,pin_no=pn)}}"><button>Back</button></a>
+
+</body>
+
+</html>
